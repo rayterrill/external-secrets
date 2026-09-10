@@ -1,0 +1,1 @@
+Resolved PR 6692 against upstream/main after provider metric constants moved out of runtime/constants. Preserved Azure soft-delete recovery for both SDK paths, moved CallAzureKVRecoverSecret into providers/v1/azure/keyvault/constants.go, and retained upstream's runtime constants cleanup. make test passed before commit.
