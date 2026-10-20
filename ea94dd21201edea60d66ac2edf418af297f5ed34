@@ -1,0 +1,1 @@
+Updated the Azure Key Vault recovery test fixtures to initialize promoted embedded fields directly, satisfying modernize/embedlit under the branch's Go 1.27.2 toolchain. Recovery behavior and assertions are unchanged.
