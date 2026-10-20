@@ -1,0 +1,1 @@
+Disable modernize/embedlit while modules declare Go 1.26.6. The analyzer recommends direct initialization of promoted embedded fields, a Go 1.27 feature; applying that syntax to the Azure Key Vault test literals failed compilation under the project toolchain. Re-enable after upgrading all modules to Go 1.27.
