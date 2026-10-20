@@ -1,0 +1,1 @@
+Merged the latest upstream main into the PR branch before addressing the October 16 review comment. The updated branch targets Go 1.27.2, which supports promoted embedded fields in struct literals. Local ignored go.work initially retained Go 1.26.6 and needed go work use before checks.
